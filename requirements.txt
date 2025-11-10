@@ -1,0 +1,33 @@
+# Core Framework
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-core==0.3.0
+langchain-text-splitters==0.3.0
+
+# LLM and Embeddings
+langchain-ollama==0.2.0
+langchain-google-genai==2.0.0
+
+# Vector Stores
+langchain-chroma==0.1.4
+chromadb==0.5.0
+langchain-pinecone==0.2.0
+faiss-cpu==1.8.0
+
+# Web Scraping and Crawling
+langchain-tavily==0.2.0
+beautifulsoup4==4.12.3
+lxml==5.3.0
+requests==2.32.3
+
+# UI
+streamlit==1.38.0
+
+# Utilities
+python-dotenv==1.0.1
+certifi==2024.8.30
+
+# Optional: For development
+# pytest==8.3.0
+# black==24.8.0
+# flake8==7.1.0

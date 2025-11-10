@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# ChromaDB / Vector Databases
+chroma_db/
+chroma_db_*/
+*.db
+*.sqlite
+*.sqlite3
+faiss_index/
+pinecone_cache/
+
+# Ollama Models (if stored locally)
+models/
+*.gguf
+*.bin
+
+# Logs
+*.log
+logs/
+*.out
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation
+docs/_build/
+site/
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Data Files (add your specific data directories)
+data/raw/
+data/processed/
+*.csv
+*.json
+*.jsonl
+# Keep example data
+!data/examples/*.csv
+!data/examples/*.json
+
+# Scraped Content
+scraped_data/
+crawled_pages/
+
+# Large Files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup Files
+*.bak
+*.backup
+
+# Cache
+.cache/
+*.cache
